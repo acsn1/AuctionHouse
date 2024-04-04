@@ -1,0 +1,10 @@
+name: AuctionHouse
+version: '${project.version}'
+main: org.acsn1.auctionhouse.AuctionHouse
+api-version: 1.20
+authors: [ acsn1 ]
+depend: [Vault]
+
+commands:
+  ah:
+    description: 'The Main AH Root Command.'
